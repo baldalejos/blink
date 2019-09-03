@@ -1,14 +1,14 @@
-#define pin 5
+#define pin 6
 
 void setup() {
   // initialize digital pin 
-  pinMode(5, OUTPUT);
+  pinMode(6, OUTPUT);
 }
 
 // the loop function runs over and over again forever
 void loop() {
-  digitalWrite(5, HIGH);   // turn the LED on (HIGH is the voltage level)
+  digitalWrite(6, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(1000);                       // wait for a second
-  digitalWrite(5, LOW);    // turn the LED off by making the voltage LOW
+  digitalWrite(6, LOW);    // turn the LED off by making the voltage LOW
   delay(5000);                       // wait for a second
 }
